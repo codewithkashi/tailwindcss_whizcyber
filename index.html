@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhizCyber</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body class="font-poppins">
+    <nav class="bg-black flex items-center justify-between px-10 py-6">
+        <div class="">
+            <img src="assets/logo.png" alt="" class="w-24 sm:w-40">
+        </div>
+        <ul class="hidden items-center space-x-6 lg:flex">
+            <li class="text-white text-[20px] hover:cursor-pointer hover:text-blue-500 transition-colors"><a href="#home">Home</a></li>
+            <li class="text-white text-[20px] hover:cursor-pointer hover:text-blue-500 transition-colors"><a href="#services">Services</a></li>
+            <li class="text-white text-[20px] hover:cursor-pointer hover:text-blue-500 transition-colors"><a href="#about">About</a></li>
+            <li class="text-white text-[20px] hover:cursor-pointer hover:text-blue-500 transition-colors"><a href="#partners">Partners</a></li>
+            <li class="text-white text-[20px] hover:cursor-pointer hover:text-blue-500 transition-colors"><a href="#solutions">Solutions</a></li>
+            <li class="text-white text-[20px] hover:cursor-pointer hover:text-blue-500 transition-colors"><a href="#pricing">Pricing</a><li>
+        </ul>
+        <div class="space-x-4 sm:flex hidden">
+            <button class="text-white bg-transparent outline-transparent hover:cursor-pointer hover:text-blue-500">Login</button>
+            <button class="text-white text-[18px] bg-blue-500 py-2 px-4 rounded-md hover:bg-red-500 hover:cursor-pointer transition-colors">Sign Up</button>
+        </div>
+
+        <ul class="hidden items-center flex-col lg:hidden justify-center space-y-4 bg-black absolute top-[80px] right-[20px] px-8 py-4 sidebar" id="menu__mobile">
+            <li class="text-white text-[20px] hover:cursor-pointer hover:text-blue-500 transition-colors"><a href="#home">Home</a></li>
+            <li class="text-white text-[20px] hover:cursor-pointer hover:text-blue-500 transition-colors"><a href="#services">Services</a></li>
+            <li class="text-white text-[20px] hover:cursor-pointer hover:text-blue-500 transition-colors"><a href="#about">About</a></li>
+            <li class="text-white text-[20px] hover:cursor-pointer hover:text-blue-500 transition-colors"><a href="#partners">Partners</a></li>
+            <li class="text-white text-[20px] hover:cursor-pointer hover:text-blue-500 transition-colors"><a href="#solutions">Solutions</a></li>
+            <li class="text-white text-[20px] hover:cursor-pointer hover:text-blue-500 transition-colors"><a href="#pricing">Pricing</a><li>
+            <div class="space-x-4 flex-col space-y-4 flex sm:hidden">
+                <button class="text-white text-[20px]  bg-transparent outline-transparent hover:cursor-pointer hover:text-blue-500">Login</button>
+                <button class="text-white text-[18px] bg-blue-500 py-2 px-4 rounded-md hover:bg-red-500 hover:cursor-pointer transition-colors">Sign Up</button>
+            </div>
+        </ul>
+        <img src="assets/menu.svg" class="lg:hidden block" alt="" id="menu">
+    </nav>
+
+
+    <section class="flex flex-col lg:flex-row items-center justify-center md:justify-between p-8 sm:p-12 md:p-16 gradient__bg" id="home">
+            <div class="flex flex-col justify-start">
+                <p class="text__heading">We Provide <span class="text-gradient">Cyber Solutions</span> for Your Security</p>
+                <p class="text__body-gray max-w-[500px]">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse ruam nihil molestiae. Lorem ipsum dolor sit amet consectetur.</p>
+                <div class="space-x-4 space-y-4">
+                    <button class="text-white text-[18px] bg-blue-500 py-2 px-4 rounded-md hover:bg-red-500 hover:cursor-pointer transition-colors">Get Started</button>
+                    <button class="text-white text-[18px] bg-red-500 py-2 px-4 rounded-md hover:bg-blue-500 hover:cursor-pointer transition-colors">Contact Us</button>
+                </div>
+            </div>
+            <div class="w-full">
+                <img src="assets/whiz-cyber-banner.png" alt="">
+            </div>
+    </section>
+
+
+
+
+    <section class="flex flex-col p-8 sm:p-12 md:p-16" id="services">
+        <p class="text__blue text-center pb-6">OUR SERVICES</p>
+        <p class="text__heading-small text-gradient">Cyber Security Solutions</p>
+        <div class="flex flex-wrap items-center justify-center md:justify-between">
+            <div class="flex flex-col items-center w-[250px] md:w-[300px] lg:w-[350px] xl:w-[450px bg-blue-950 rounded-lg px-6 py-8 m-6">
+                <img src="assets/services-img1.png" alt="">
+                <p class="text-white text-center text-[24px] md:text-[28px] lg:text-[32px] font-bold my-4">Computer Security</p>
+                <p class="text__body-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos illo incidunt voluptas similique.</p>
+                <button class="text-white text-[18px] bg-blue-500 py-2 px-4 rounded-md hover:bg-red-500 hover:cursor-pointer transition-colors">Read More</button>
+            </div>
+            <div class="flex flex-col items-center w-[250px] md:w-[300px] lg:w-[350px] xl:w-[450px bg-blue-950 rounded-lg px-6 py-8 m-6">
+                <img src="assets/services-img2.png" alt="">
+                <p class="text-white text-center text-[24px] md:text-[28px] lg:text-[32px] font-bold my-4">
+
+                    File Security</p>
+                <p class="text__body-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos illo incidunt voluptas similique.</p>
+                <button class="text-white text-[18px] bg-blue-500 py-2 px-4 rounded-md hover:bg-red-500 hover:cursor-pointer transition-colors">Read More</button>
+            </div>
+            <div class="flex flex-col items-center w-[250px] md:w-[300px] lg:w-[350px] xl:w-[450px bg-blue-950 rounded-lg px-6 py-8 m-6">
+                <img src="assets/services-img3.png" alt="">
+                <p class="text-white text-center text-[24px] md:text-[28px] lg:text-[32px] font-bold my-4">FingerPrint Security</p>
+                <p class="text__body-gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos illo incidunt voluptas similique.</p>
+                <button class="text-white text-[18px] bg-blue-500 py-2 px-4 rounded-md hover:bg-red-500 hover:cursor-pointer transition-colors">Read More</button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="flex flex-col lg:flex-row items-center justify-center md:justify-between p-8 sm:p-12 md:p-16" id="about">
+        <div class="w-full lg:w-[40%] flex">
+            <img src="assets/about.jpg" alt="" class="w-[90%]">
+        </div>
+        <div class="flex flex-col justify-start w-full lg:w-[60%]">
+            <p class="text__blue">ABOUT US</p>
+            <p class="text__heading text-gradient">24/7 Cyber Security Operation Center</p>
+            <p class="text__body-gray max-w-[500px]">Duis aute irure dolor in reprehenderit in voluptate esse cillu dolore eu fugiat nulla pariatur excepteur sint occaecat cupia at non proident, sunt in culpa rui officia deserunt mollit ani mid est laborum incidunt aut labore magnam.</p>
+            <div class="flex flex-wrap items-center justify-center md:justify-between">
+               <ul class="w-[200px] md:w-[250px]">
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Malware Detection
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Removal Cloud Security
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Content Delivery
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Network Cyber Security
+                </li>
+               </ul>
+               <ul class="w-[200px] md:w-[250px]">
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Security Management
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Identifying Threats
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">SIEM Threat Detection
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Server Security
+                </li>
+               </ul>
+            </div>
+        </div>
+        
+</section>
+
+<section class="p-8 sm:p-12 md:p-16" id="partners">
+    <p class="text__blue text-center">OUR PARTNERS</p>
+    <p class="text__heading text-gradient text-center mb-6">We are Working With</p>
+    <div class="flex flex-wrap justify-center md:justify-between items-center">
+        <div class="bg-blue-950 rounded-md hover:bg-blue-500 transition-colors p-4 m-4">
+            <img src="assets/partners-icon1.png" alt="">
+        </div>
+        <div class="bg-blue-950 rounded-md hover:bg-blue-500 transition-colors p-4 m-4">
+            <img src="assets/partners-icon2.png" alt="">
+        </div>
+        <div class="bg-blue-950 rounded-md hover:bg-blue-500 transition-colors p-4 m-4">
+            <img src="assets/partners-icon3.png" alt="">
+        </div>
+        <div class="bg-blue-950 rounded-md hover:bg-blue-500 transition-colors p-4 m-4">
+            <img src="assets/partners-icon4.png" alt="">
+        </div>
+        <div class="bg-blue-950 rounded-md hover:bg-blue-500 transition-colors p-4 m-4">
+            <img src="assets/partners-icon5.png" alt="">
+        </div>
+        <div class="bg-blue-950 rounded-md hover:bg-blue-500 transition-colors p-4 m-4">
+            <img src="assets/partners-icon6.png" alt="">
+        </div>
+    </div>
+</section>
+
+
+<section class="flex flex-col lg:flex-row items-center justify-center md:justify-between p-8 sm:p-12 md:p-16" id="solutions">
+    <div class="flex flex-col justify-start">
+        <p class="text__blue">WHO WE ARE</p>
+        <p class="text__heading text-gradient max-w-[900px]">We Spend 30,000 Hours Per Year to Virus Threats </p>
+        <p class="text__body-gray max-w-[500px]">Qugiat nulla pariatur excepteur sint occaecat cupidatat no proident, sunt in culpa rui officia deserunt.</p>
+        <div class="flex justify-center md:justify-between flex-wrap">
+            <div class="flex flex-col justify-center items-center">
+                <p class="text__orange">2K+</p>
+                <p class="text__body-gray">Engagments</p>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <p class="text__orange">17M+</p>
+                <p class="text__body-gray">Monitored Globally</p>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <p class="text__orange">18K+</p>
+                <p class="text__body-gray">Network Sensors</p>
+            </div>
+        </div>
+        
+    </div>
+    <div class="w-full flex justify-end">
+        <img src="assets/who-we-are-img.png" alt="">
+    </div>
+</section>
+
+<section class="flex flex-col lg:flex-row items-center justify-center md:justify-between p-8 sm:p-12 md:p-16" id="solutions">
+    <div class="flex flex-col justify-start">
+        <p class="text__blue">OUR SOLUTIONS</p>
+        <p class="text__heading text-gradient max-w-[900px]">The Perfect Solution For all Protection</p>
+        <p class="text__body-gray max-w-[500px]">Qugiat nulla pariatur excepteur sint occaecat cupidatat no proident, sunt in culpa rui officia deserunt.</p>
+        <div class="flex flex-wrap items-center justify-center md:justify-between">
+            <ul class="w-[200px] md:w-[250px]">
+             
+             <li class="flex items-center text__body-gray">
+                 <img src="assets/sol-list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Cyber Solutions</li>
+             <li class="flex items-center text__body-gray">
+                 <img src="assets/sol-list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt=""> Web Security
+             </li>
+            </ul>
+            <ul class="w-[200px] md:w-[250px]">
+             
+             <li class="flex items-center text__body-gray">
+                 <img src="assets/sol-list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Network Security
+             </li>
+             <li class="flex items-center text__body-gray">
+                 <img src="assets/sol-list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Locker Security
+             </li>
+            </ul>
+         </div>
+        
+    </div>
+    <div class="w-full flex justify-end">
+        <img src="assets/solutions.png" alt="">
+    </div>
+</section>
+
+
+
+
+
+<section class="flex flex-col p-8 sm:p-12 md:p-16" id="pricing">
+    <p class="text__blue text-center pb-6">WE OFFER</p>
+    <p class="text__heading-small text-gradient">Our Flexible Plans</p>
+    <div class="flex flex-wrap items-center justify-center md:justify-between">
+        <div class="flex flex-col items-center w-[250px] md:w-[300px] lg:w-[350px] xl:w-[450px bg-blue-950 rounded-lg px-6 py-8 m-6">
+            <p class="text__blue">Beginner</p>
+            <img src="assets/pricing-plan-icon1.png" alt="">
+            <p class="text__heading text-gradient">120$</p>
+            <ul>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">10 Days Product Testing 
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Upgrade Anytime Protection
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">100 Malware Removal
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Scan Every 08 Hrs
+                </li>
+               </ul>
+            <button class="text-white text-[18px] bg-blue-500 py-2 px-4 rounded-md hover:bg-red-500 hover:cursor-pointer transition-colors">Read More</button>
+        </div>
+        <div class="flex flex-col items-center w-[250px] md:w-[300px] lg:w-[350px] xl:w-[450px bg-blue-950 rounded-lg px-6 py-8 m-6">
+            <p class="text__blue">Professinal</p>
+            <img src="assets/pricing-plan-icon2.png" alt="">
+            <p class="text__heading text-gradient">180$</p>
+            <ul>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">40 Days Product Testing 
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Upgrade Anytime Protection
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">150 Malware Removal
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">24/7 Live Assistance
+                </li>
+               </ul>
+            <button class="text-white text-[18px] bg-blue-500 py-2 px-4 rounded-md hover:bg-red-500 hover:cursor-pointer transition-colors">Read More</button>
+        </div>
+        <div class="flex flex-col items-center w-[250px] md:w-[300px] lg:w-[350px] xl:w-[450px bg-blue-950 rounded-lg px-6 py-8 m-6">
+            <p class="text__blue">Premium</p>
+            <img src="assets/pricing-plan-icon3.png" alt="">
+            <p class="text__heading text-gradient">240$</p>
+            <ul>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">100 Days Product Testing 
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">Upgrade Anytime Protection
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">250 Malware Removal
+                </li>
+                <li class="flex items-center text__body-gray">
+                    <img src="assets/list.png" class="w-4 sm:w-6 md:w-8 mr-2" alt="">24/7 Live Assistance
+                </li>
+               </ul>
+            <button class="text-white text-[18px] bg-blue-500 py-2 px-4 rounded-md hover:bg-red-500 hover:cursor-pointer transition-colors">Read More</button>
+        </div>
+    </div>
+
+
+    <footer class="flex justify-center flex-wrap md:justify-between p-8 sm:p-12 md:p-16 gradient__bg">
+        <div class="w-[200px]">
+            <img src="assets/logo.png" class="w-20 md:w-32" alt="">
+            <p class="text__body-gray">An easy way to make your system secure and faster</p>
+        </div>
+        <div class="max-w-[200px] px-6">
+            <b class="text-blue-500 font-[20px] sm:font-[24px]">Useful Links</b>
+            <p class="text__body-gray  hover:text-blue-500  transition-all hover:cursor-pointer">How it Works</p>
+            <p class="text__body-gray  hover:text-blue-500  transition-all hover:cursor-pointer">Create</p>
+            <p class="text__body-gray  hover:text-blue-500  transition-all hover:cursor-pointer">Content</p>
+            <p class="text__body-gray  hover:text-blue-500  transition-all hover:cursor-pointer">Explore</p>
+            <p class="text__body-gray  hover:text-blue-500  transition-all hover:cursor-pointer">Terms & Conditions</p>
+        </div>
+        <div class="max-w-[200px]">
+            <b class="text-blue-500 font-[20px] sm:font-[24px]">Community</b>
+            <p class="text__body-gray  hover:text-blue-500  transition-all hover:cursor-pointer">Help Center</p>
+            <p class="text__body-gray  hover:text-blue-500  transition-all hover:cursor-pointer">Partners </p>
+            <p class="text__body-gray  hover:text-blue-500  transition-all hover:cursor-pointer">Suggesstions</p>
+            <p class="text__body-gray  hover:text-blue-500  transition-all hover:cursor-pointer">Blog</p>
+            <p class="text__body-gray hover:text-blue-500  transition-all hover:cursor-pointer">Newsletter</p>
+        </div>
+        <div class="max-w-[200px] px-6">
+            <b class="text-blue-500 font-[20px] sm:font-[24px]">Membership</b>
+            <p class="text__body-gray  hover:text-blue-500  transition-all hover:cursor-pointer">Our Members</p>
+            <p class="text__body-gray  hover:text-blue-500  transition-all hover:cursor-pointer">Become a Member</p>
+        </div>
+    </footer>
+    <p class="text-center text-white py-4 text-[20px] bg-black border-t-2 border-white">Copyright © All rights reserved. <span class="text-blue-500">WhizCyber.org</span></p>
+</section>
+    <script>
+        document.getElementById("menu").addEventListener("click", ()=>{
+            document.getElementById("menu__mobile").classList.toggle("flex")
+            document.getElementById("menu__mobile").classList.toggle("hidden")
+        })
+    </script>
+</body>
+</html>
