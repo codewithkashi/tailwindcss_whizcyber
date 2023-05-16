@@ -1,4 +1,5 @@
 This repository contains the source code and assets for a modern website built using Tailwind CSS. The website showcases the features and capabilities of Tailwind CSS, a utility-first CSS framework.
+live preview: cwkprojects.epizy.com/whizcyber2
 Features
 Responsive layout: The website is designed to be fully responsive and adapt to different screen sizes and devices.
 Customizable theme: Tailwind CSS provides a flexible theming system, allowing you to easily customize the colors, typography, and other aspects of the design.
@@ -7,7 +8,7 @@ Optimized for performance: Tailwind CSS follows best practices for performance, 
 Integration-ready: The website code is structured in a modular and organized way, making it easy to integrate with your existing projects or extend with additional features.
 Installation
 Clone the repository:
-git clone https://github.com/your-username/modern-tailwind-website.git
+git clone https://github.com/codewithkashi/tailwindcss_whizcyber
 Navigate to the project directory:
 cd modern-tailwind-website
 Install the dependencies:
