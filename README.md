@@ -1,4 +1,4 @@
-# Tailwind Website
+# Whizcyber Tailwind 
 
 [Live Preview](https://cwkprojects.epizy.com/whizcyber2)
 
@@ -41,20 +41,20 @@ This is a modern website built using the Tailwind CSS framework. It showcases th
 To get started with this website, follow these steps:
 
 1. Clone the repository:
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/codewithkashi/tailwindcss_whizcyber.git
 2. Navigate to the project directory:
 
-cd your-repository
+cd tailwindcss_whizcyber
 
 2. Navigate to the project directory:
 
-cd your-repository
+cd tailwindcss_whizcyber
 
 3. Install the dependencies:
 
 2. Navigate to the project directory:
 
-cd your-repository
+cd tailwindcss_whizcyber
 
 3. Install the dependencies:
 
